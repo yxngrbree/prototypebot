@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+body {
+    background-color: #FFFBF5;
+    color: #111;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+h1{
+    font-size: 35px;
+    font-weight: 600;
+    padding: 200px , 0;
+}
+
+.side-bar{
+    width: 244px;
+    height: 100vh;
+    padding: 0px;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    background-color:#7743DB ;
+    justify-content: space-between;
+    font-weight: 300;
+
+}
+
+.chatbot{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+}
+
+.info{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 11px;
+    padding: 10px;
+}
+
+input{
+    border: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    font-size: 20px;
+    padding: 12px 15px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0, 54, 55;
+    max-width: 650px;
+    position: relative;
+}
+
+input:focus{
+    outline: none;
+}
+
+.input{
+    width: 100%;
+    max-width: 650px;
+    position: relative;
+}
+    
+.bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.input #submit{
+    position: absolute;
+    right: 0;
+    top: 13px;
+}
+
+button{
+    border: solid 0.5px rgba(255, 255, 255, 0.5);
+    background-color: transparent;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px;
+    color: #fff;
+}
+
+button:hover{
+    background-color: #3F2E3E;
+}
+
+nav{
+    border-top: solid 0.5px rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    margin: 10px;
+}
+
+.history{
+    padding: 10px;
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.history p{
+    cursor: pointer;
+    
+}
+
+#submit{
+    cursor: pointer;
+}
+
+.Korina {
+    border: 5px solid #7743DB; 
+    border-radius: 3px;
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+

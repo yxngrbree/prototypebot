@@ -1,4 +1,4 @@
-const API_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx ur api';
+const API_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'; // put your own key from openAI 
 const submitButton = document.querySelector('#submit');
 const outPutElement=document.querySelector('#output');
 const inputElement=document.querySelector('input');

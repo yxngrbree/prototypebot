@@ -1,42 +1,43 @@
-prototypebot
+# prototypebot
 
-Simple ChatGPT-like chatbot using the OpenAI API.
+A simple ChatGPT-like chatbot UI built with HTML, CSS, and JavaScript that connects directly to the OpenAI Chat Completions API from the browser.
 
-Overview
+---
 
-This project implements a basic chatbot interface that sends user messages to the OpenAI API and displays the generated responses. It can be used as a prototype or starting point for building custom AI chat applications.
+## Overview
 
-Features
+`prototypebot` is a lightweight, client-side chat interface that sends user prompts to the OpenAI API and displays the model’s responses in a clean chat layout. It is designed as a prototype or starting point for building custom AI chat applications.
 
-Chat interface in HTML/CSS/JavaScript
+---
 
-Communication with OpenAI API
+## Features
 
-Simple message input and output display
+- Chat-style user interface
+- Built with plain HTML, CSS, and JavaScript
+- Uses `fetch` to call the OpenAI API
+- Displays conversation messages dynamically
+- Sidebar message history
+- "New Chat" functionality
+- Basic rate-limit handling (HTTP 429) with exponential backoff (up to 3 retries)
 
-No backend required (client-side only)
+## Requirements
 
-Requirements
+- An OpenAI API key
+- A modern web browser (Chrome, Edge, Firefox, etc.)
+- (Recommended) A local static server
 
-OpenAI API key
+---
 
-Modern browser
+## Installation
 
-Local HTTP server for static files (optional)
+### 1. Clone the Repository
 
-Setup
-
-Clone the repository:
+```bash
 git clone https://github.com/yxngrbree/prototypebot.git
-
-Add your OpenAI API key in the JavaScript file (bot.js) where indicated.
-
-Serve files locally (optional) or open bot.html in a browser.
-
-Usage
-
-Open the chat interface (bot.html).
-
-Type your message in the input box.
-
-Press enter or send to get a response from the OpenAI API.
+cd prototypebot
+```
+Open bot.js and replace the placeholder:
+```
+const API_KEY = "x.x.x.x.x.x";
+```
+Replace it with your actual OpenAI API key.
